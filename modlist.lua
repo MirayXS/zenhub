@@ -8,6 +8,7 @@ ModIDS = {
     [2634824728] = true, -- msmhashtag1337
     [780391516] = true, -- 01XIN10
     [283223102] = true, -- WizzyTea
+    [2600403084] = true, -- SNIPEDBYRICHMEN
 }
 
 return ModIDS
