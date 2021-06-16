@@ -6,7 +6,7 @@ local SupportedEmojis = {'😬','🦇','⭐','🖤','💫','🌕','🥶','🥶�
 
 function zennames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if game.Workspace.Players:FindFirstChild(Player.Name) then
+        if Players:FindFirstChild(Player.Name) then
             if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
                 if not string.find(Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName, '%[') then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
