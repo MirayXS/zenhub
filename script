@@ -1,9 +1,7 @@
-if game.PlaceId == 5023820864 or game.PlaceId == 6385230324 then
-    if syn then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/trade%20tower%20synapse.lua"))()
-    else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/trade%20tower%20other.lua"))()
-    end
+if game.PlaceId == 5023820864 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/trade%20tower%20other.lua"))()
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/zenhub%20paid%20exploits.lua"))()
+    if syn then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/zenhub%20paid%20exploits.lua"))()
+    end
 end
